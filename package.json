@@ -30,6 +30,9 @@
 		"@biomejs/biome": "2.2.2"
 	},
 	"trustedDependencies": [
-		"@tailwindcss/oxide"
+		"@tailwindcss/oxide",
+		"esbuild",
+		"sharp",
+		"workerd"
 	]
 }

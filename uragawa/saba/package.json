@@ -1,0 +1,17 @@
+{
+	"name": "saba",
+	"version": "0.0.1",
+	"type": "module",
+	"private": true,
+	"scripts": {
+		"dev": "bun run --hot src/main.ts",
+		"dew": "wrangler dev"
+	},
+	"dependencies": {
+		"hono": "^4.9.4"
+	},
+	"devDependencies": {
+		"typescript": "catalog:",
+		"wrangler": "^4.32.0"
+	}
+}

@@ -1,0 +1,6 @@
+name = "saba"
+compatibility_date = "2025-08-25" # 2025-08-26 8:17
+main = "src/main.ts"
+
+[dev]
+port = 3000
