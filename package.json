@@ -2,6 +2,10 @@
 	"name": "koukokuto",
 	"version": "0.0.1",
 	"private": true,
+	"scripts": {
+		"check": "biome check --write",
+		"futsu": "cd tamesu/futsu && bun run dev"
+	},
 	"workspaces": {
 		"packages": [
 			"koukokua",
@@ -21,9 +25,6 @@
 				"@types/react-dom": "^19.1.7"
 			}
 		}
-	},
-	"scripts": {
-		"check": "biome check --write"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "2.2.2"

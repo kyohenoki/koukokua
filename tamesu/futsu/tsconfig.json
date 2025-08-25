@@ -12,7 +12,8 @@
 		"noEmit": true,
 		"resolveJsonModule": true,
 		"paths": {
-			"@/*": ["./*"]
+			"@/*": ["./src/*"],
+			"@koukoku/*": ["../../koukokua/src/*"]
 		}
 	},
 	"include": ["src", "vite.config.ts"],

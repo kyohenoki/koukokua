@@ -1,3 +1,4 @@
+import Koukoku from '@koukoku/block'
 import { tasu } from 'koukokua'
 
 export default function Home() {
@@ -7,6 +8,7 @@ export default function Home() {
 			<div className="max-w-3xl w-full flex flex-col">
 				<h1 className="text-[1.35rem]">実験場</h1>
 				<h1 className="text-[1.35rem] text-stone-500">{kotae}</h1>
+				<Koukoku className="my-1.5" />
 			</div>
 		</div>
 	)
