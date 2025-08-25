@@ -1,17 +1,20 @@
 {
-	"name": "saba",
-	"version": "0.0.1",
-	"type": "module",
-	"private": true,
-	"scripts": {
-		"dev": "bun run --hot src/main.ts",
-		"dew": "wrangler dev"
-	},
-	"dependencies": {
-		"hono": "^4.9.4"
-	},
-	"devDependencies": {
-		"typescript": "catalog:",
-		"wrangler": "^4.32.0"
-	}
+  "name": "saba",
+  "version": "0.0.1",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --hot src/main.ts",
+    "dew": "wrangler dev",
+    "okuru": "bun run src/okuru.ts"
+  },
+  "dependencies": {
+    "@hono/zod-validator": "^0.7.2",
+    "hono": "^4.9.4",
+    "zod": "^4.1.2"
+  },
+  "devDependencies": {
+    "typescript": "catalog:",
+    "wrangler": "^4.32.0"
+  }
 }

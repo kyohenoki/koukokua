@@ -1,38 +1,38 @@
 {
-	"name": "koukokuto",
-	"version": "0.0.1",
-	"private": true,
-	"scripts": {
-		"check": "biome check --write",
-		"futsu": "cd tamesu/futsu && bun run dev"
-	},
-	"workspaces": {
-		"packages": [
-			"koukokua",
-			"tamesu/*",
-			"uragawa/*"
-		],
-		"catalog": {
-			"react": "^19.1.1",
-			"react-dom": "^19.1.1",
-			"tailwindcss": "^4.1.12",
-			"typescript": "^5.9.2"
-		},
-		"catalogs": {
-			"kata": {
-				"@types/node": "^24.3.0",
-				"@types/react": "^19.1.11",
-				"@types/react-dom": "^19.1.7"
-			}
-		}
-	},
-	"devDependencies": {
-		"@biomejs/biome": "2.2.2"
-	},
-	"trustedDependencies": [
-		"@tailwindcss/oxide",
-		"esbuild",
-		"sharp",
-		"workerd"
-	]
+  "name": "koukokuto",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "check": "biome check --write",
+    "futsu": "cd tamesu/futsu && bun run dev"
+  },
+  "workspaces": {
+    "packages": [
+      "koukokua",
+      "tamesu/*",
+      "uragawa/*"
+    ],
+    "catalog": {
+      "react": "^19.1.1",
+      "react-dom": "^19.1.1",
+      "tailwindcss": "^4.1.12",
+      "typescript": "^5.9.2"
+    },
+    "catalogs": {
+      "kata": {
+        "@types/node": "^24.3.0",
+        "@types/react": "^19.1.11",
+        "@types/react-dom": "^19.1.7"
+      }
+    }
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.2"
+  },
+  "trustedDependencies": [
+    "@tailwindcss/oxide",
+    "esbuild",
+    "sharp",
+    "workerd"
+  ]
 }
