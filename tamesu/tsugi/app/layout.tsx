@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import './subete.css'
+import './hiragino.css'
 
 export const metadata: Metadata = {
   title: '次の実験',
